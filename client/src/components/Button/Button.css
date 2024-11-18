@@ -1,0 +1,29 @@
+/* Button.css */
+
+.button-edit {
+    background-color: #414ec5;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  
+  .button-edit:hover {
+    background-color: #32437d;
+  }
+  
+  .button-delete {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .button-delete:hover {
+    background-color: #da190b;
+  }
+  
