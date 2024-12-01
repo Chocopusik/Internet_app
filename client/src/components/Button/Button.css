@@ -26,4 +26,14 @@
   .button-delete:hover {
     background-color: #da190b;
   }
+
+  .button-link {
+    background-color: green;
+    color: white;
+  }
+  
+  .button-back {
+    background-color: gray;
+    color: white;
+  }
   
