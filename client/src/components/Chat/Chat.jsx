@@ -59,7 +59,7 @@ const Chat = () => {
 
   return (
     <div className="chat-room">
-      <h2>Chat</h2>
+      <h2>Чат</h2>
       <Link to="/">
         <button className="button-back">Назад</button>
       </Link>

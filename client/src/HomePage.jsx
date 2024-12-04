@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import ButtonItems from './components/ButtonItems';
 import ButtonChat from './components/ButtonChat';
-import './HomePage'
+import './HomePage.css';
 
 function HomePage() {
   return (

@@ -28,7 +28,7 @@ const ItemList = ({ items, onItemClick, onDeleteItem, onAddItem }) => {
   };
 
   return (
-    <div>
+    <div >
       <form onSubmit={handleFormSubmit}>
         <input
           type="text"
