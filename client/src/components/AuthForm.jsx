@@ -19,7 +19,10 @@ const AuthForm = ({ isLogin }) => {
         try {
             const url = isLogin ? 'http://127.0.0.1:8000/login/' : 'http://127.0.0.1:8000/register/';
             const response = await axios.post(url, { email, password });
-            localStorage.setItem('token', response.data.token); // Сохранение токена в localStorage
+            console.log(response.data);
+            const token = response.data.jwt; // Измените на response.data.jwt, если это ваш токен
+            localStorage.setItem('token', token);
+            console.log('Токен сохранен в localStorage:', localStorage.getItem('token'));
             navigate('/'); // Перенаправление на страницу с функционалом
         } catch (err) {
             if (isLogin && err.response && err.response.status === 404) {
